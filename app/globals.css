@@ -76,7 +76,7 @@
 }
 
 .auth {
-  @apply flex-center min-h-screen w-full bg-gradient-to-r from-[#84CEEB] to-[#C1C8E4]
+  @apply flex-center min-h-screen w-full bg-gradient-to-r from-[#84CEEB] to-[#C1C8E4] to-[#8860D0]
 }
 
 .root {
