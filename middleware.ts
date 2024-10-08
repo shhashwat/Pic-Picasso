@@ -20,8 +20,7 @@ import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 
 // Protect certain routes, but exclude '/api/clerk'
 const isProtectedRoute = createRouteMatcher([
-  '/', // Protect homepage or other routes
-  // Do not include '/api/clerk' here, since it's for the webhook
+  '/',
 ]);
 
 export default clerkMiddleware((auth, req) => {
