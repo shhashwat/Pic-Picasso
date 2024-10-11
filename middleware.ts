@@ -32,6 +32,6 @@ export const config = {
   matcher: [
     '/api/webhooks/clerk',
     '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
-    '/(api|trpc)(.*)', // Continue matching other API and TRPC routes
+    '/(api|trpc)(.*)', 
   ],
 };
